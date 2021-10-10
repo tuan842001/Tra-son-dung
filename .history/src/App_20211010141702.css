@@ -160,19 +160,6 @@ width: 444px;
 color:#337ab7;
 }
 
-.modal-content-reviews {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  pointer-events: auto;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid rgba(0,0,0,.2);
-  /* border-radius: .3rem; */
-  outline: 0;
-}
-
 .btn-reviews {
 display: contents;
 -webkit-user-select: none;
@@ -369,7 +356,7 @@ transition: all .2s;
     width: 70%;
   }
   .information h4 {
-    font-size: 17px;
+    font-size: 19px;
   }
   .btn-bars {
       width: 60px;
@@ -396,19 +383,14 @@ transition: all .2s;
   }
   .information h4{
       margin: 0px;
-      padding-bottom: 3px;
+      padding-bottom: 9px;
   }
   .information button {
       width: 100px;
       height: 35px;
   }
-  /* .rate {
+  .rate {
       padding: 5px 25px;
-  } */
-
-  .modal-content-reviews {
-    width: 70%;
-    margin: 30px;
   }
   .portlet-body {
       padding: 5px;

@@ -218,7 +218,7 @@ function App() {
                   
                   <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">{t('Comment')}</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder= {t('Enter_comments')}   rows="5"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder= {t('Enter_password')}   rows="5"></textarea>
                   </div>
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">{t('submit')}</button>
              

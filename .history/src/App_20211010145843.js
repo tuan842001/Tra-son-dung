@@ -7,7 +7,7 @@ import './App.css';
 const languages = [
   {
     code: 'vn',
-    name: 'Tiếng Việt',
+    name: '{t('app_title')}'
     country_code: 'vn',
   },
   {
@@ -81,21 +81,21 @@ function App() {
                       </div>
                       <div class="mb-3">
                         <label for="exampleDropdownFormPassword1" class="form-label">{t('password')}</label>
-                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder= {t('Enter_password')}  />
+                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder= {t('app_title')}  />
                       </div>
                       <div class="mb-3">
                         <div class="form-check">
                           <input type="checkbox" class="form-check-input" id="dropdownCheck" />
                           <label class="form-check-label" for="dropdownCheck">
-                            {t('Remember_me')}
+                            Nhớ tài khoản
                           </label>
                         </div>
                       </div>
-                      <button type="submit" class="btn btn-primary">{t('log_in')}</button>
+                      <button type="submit" class="btn btn-primary">Đăng nhập</button>
                     </form>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">{t('Register')}</a>
-                    <a class="dropdown-item" href="#">{t('Forgot_password')}</a>
+                    <a class="dropdown-item" href="#">Bạn chưa có tài khoản? Đăng ký</a>
+                    <a class="dropdown-item" href="#">Quên mật khẩu?</a>
                   </div>
                 </div>
               </div>
@@ -196,7 +196,7 @@ function App() {
             <div class="modal-dialog">
               <div class="modal-content-reviews">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="staticBackdropLabel">{t('Send_comment')}</h5>
+                  <h5 class="modal-title" id="staticBackdropLabel">GỬI BÌNH LUẬN</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
 
@@ -207,20 +207,20 @@ function App() {
                   
                   <div className="divmb3">
                     <div class="mb-3">
-                    <label for="exampleDropdownFormEmail2" class="form-label">{t('Display_name')}</label>
+                    <label for="exampleDropdownFormEmail2" class="form-label">Tên hiển thị</label>
                       <input type="text" class="form-control" id="exampleDropdownFormEmail2" />
                     </div>
                     <div class="mb-3">
-                      <label label for="exampleDropdownFormEmail2" class="form-label">{t('Email')}</label>
+                      <label label for="exampleDropdownFormEmail2" class="form-label">Email</label>
                       <input type="email" class="form-control" id="exampleDropdownFormPassword2" />
                     </div>
                   </div>
                   
                   <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">{t('Comment')}</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder= {t('Enter_comments')}   rows="5"></textarea>
+                    <label for="exampleFormControlTextarea1" class="form-label">Bình luận</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Nhập cảm nhận của bạn về sản phẩm" rows="5"></textarea>
                   </div>
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">{t('submit')}</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Gửi</button>
              
                   {/*  */}
                 </div>
